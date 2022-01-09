@@ -22,6 +22,6 @@ console.log(favColor)
 // 4 Infine scrivi sulla pagina nomecognomecolorepreferito21
 const passwordElement = document.getElementById("password");
 
-passwordElement.innerHTML = "La tua password è" + " " + firstName + lastName + favColor + 21;
+passwordElement.innerHTML = "La tua password è:" + " " + (firstName + lastName + favColor + 21);
 
 
